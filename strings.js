@@ -9,3 +9,14 @@ console.log(speech);
 
 let tip = "We can escape quotes by using \\";
 console.log(tip);
+
+//String concatenation
+let sentence1 = "I am learning";
+let sentence2 = "JavaScript";
+
+let result = sentence1 + " " + sentence2;
+console.log(result);
+
+//Template Literals
+let result2 = `${sentence1} ${sentence2}`;
+console.log(result2);
