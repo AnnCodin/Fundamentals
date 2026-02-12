@@ -28,3 +28,8 @@ let channel = "Dev Dreamer";
 
 let info = `${firstName} is learning ${course} with ${channel}.`;
 console.log(info);
+
+//String Methods
+let x = "I am watching Dev Dreamer.";
+console.log(x.toUpperCase());
+console.log(x.slice(14, 25));
