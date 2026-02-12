@@ -14,9 +14,17 @@ console.log(tip);
 let sentence1 = "I am learning";
 let sentence2 = "JavaScript";
 
-let result = sentence1 + " " + sentence2;
+// let result = sentence1 + " " + sentence2;
+// console.log(result);
+
+//String Concat
+let result = sentence1.concat(" ", sentence2);
 console.log(result);
 
-//Template Literals
-let result2 = `${sentence1} ${sentence2}`;
-console.log(result2);
+//Template literals
+let firstName = "Your name";
+let course = "JavaScript";
+let channel = "Dev Dreamer";
+
+let info = `${firstName} is learning ${course} with ${channel}.`;
+console.log(info);
