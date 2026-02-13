@@ -5,7 +5,6 @@ if (a || b) {
   console.log("hello");
 }
 
-
 let x = "Ama";
 let y = "";
 
@@ -16,5 +15,5 @@ if (x && true && !y) {
 let i = -1;
 let j = 1;
 if (i && j) {
-    console.log("hello")
+  console.log("hello");
 }
