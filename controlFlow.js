@@ -52,3 +52,15 @@ switch (favFood) {
     console.log(`${favFood} not found...I'm hungry.`);
     break;
 }
+
+//Ternary Operator
+
+let name = " ";
+
+let message = 1 > 10 ? "Condition is TRUE" : "Condition is FALSE";
+console.log(message);
+
+let time = "11:00";
+
+let greeting = time < "12:00" ? "Good Morning" : "Good Evening";
+console.log(greeting);
