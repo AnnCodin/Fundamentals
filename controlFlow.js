@@ -64,3 +64,15 @@ let time = "11:00";
 
 let greeting = time < "12:00" ? "Good Morning" : "Good Evening";
 console.log(greeting);
+
+//For Loop
+
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+}
+
+const colors = ["Red", "Blue", "Green", "Yellow", "White"];
+
+for (let color = 0; color < colors.length; color++) {
+  console.log(`${colors[color]} is my favourite color`);
+}
