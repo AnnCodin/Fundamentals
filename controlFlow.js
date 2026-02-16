@@ -21,9 +21,34 @@ let nameLength = myName.length;
 console.log(nameLength);
 
 if (nameLength > 5) {
-  alert("More than 5");``
+  alert("More than 5");
+  ``;
 } else if (nameLength === 5) {
   console.log("Exactly 5 letters");
 } else {
   console.log("Less than 5 letters");
+}
+
+//Switch Statements
+let favFood = "Yam";
+
+switch (favFood) {
+  case "Pizza":
+    console.log(`That's right! ${favFood} is my favourite!`);
+    break;
+  case "Rice":
+    console.log(`That's right! ${favFood} is my favourite!`);
+    break;
+  case "Sharwarma":
+    console.log(`That's right! ${favFood} is my favourite!`);
+    break;
+  case "Yam":
+    console.log(`That's right! ${favFood} is my favourite!`);
+    break;
+  case "Plantain":
+    console.log(`That's right! ${favFood} is my favourite!`);
+    break;
+  default:
+    console.log(`${favFood} not found...I'm hungry.`);
+    break;
 }
