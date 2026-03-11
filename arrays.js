@@ -28,3 +28,8 @@ console.log(fruits);
 fruits.splice(4, 1, "lemon");
 
 console.log(fruits);
+
+//Sort alphabetically
+
+fruits.sort();
+console.log(fruits);
